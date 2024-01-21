@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Navegador
     participant Servidor
@@ -29,3 +30,4 @@ sequenceDiagram
     deactivate Servidor
     Note left of Servidor: Se retornan todos los elementos de la página de nuevo
     Note left of Navegador: HTML actualizado con el elemento enviado
+```
