@@ -7,7 +7,7 @@ sequenceDiagram
     deactivate Navegador
     activate Servidor
     Note right of Servidor: Se envían todos los archivos necesarios al mismo tiempo
-    Servidor-->>Navegador: spa, main.css, spa.js, data.json
+    Servidor-->>Navegador: spa.js, main.css, spa, data.json, favicon.ico
     deactivate Servidor
     activate Navegador
     Navegador->>Servidor: User event
